@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.none{
+    display: none;
+}
+.navbar{
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.63px;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+.nav_btn{
+    width: 173px;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px #36536B40;
+    color: white;
+}
+.first-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-left{
+    font-family: DM Serif Display;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: left;
+    color: #36536B;
+}
+.second-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.second-right h1{
+    font-family: DM Serif Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: left;
+    color: #36536B;
+}
+.second-right p{
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #6C8294;
+}
+
+.third-box{
+    width:100%;
+    padding: 100px;
+    display: flex;
+    gap: 210px;
+    align-items: center;
+    justify-content:space-between;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background: #1B262F;
+    
+}
+.list-ctn{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.list-ctn_left{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    color: white;
+}
+.list-ctn a{
+    font-family: Public Sans;
+    font-size: 15px;
+    color: #FBFCFE;
+
+}
+/* 
+@media only screen and (max-width: 768px) {
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .second-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+   
+    
+    
+} */
+
+
+@media screen and (min-width: 768px)  and (max-width: 1024px){
+   
+    .first-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    .first-left{
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+    }
+
+
+    .second-box{
+        display: block;
+    }
+
+    .second-left{
+        text-align: center;
+    }
+    .second-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+       
+    }
+    
+.third-box{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding:0 58px;
+}
+    
+    
+}
+
+ @media only screen and (max-width: 576px) {
+    .navbar{
+        display: none;
+    }
+    .none{
+        display: block;
+    }
+    .first-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .first-left{
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+    }
+    
+    .second-box{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .second-left{
+      width: 500px;
+    }
+    .second-right h1{
+    font-family: DM Serif Display;
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 50px;
+    text-align: left;
+    color: #36536B;
+}
+.second-right p{
+    font-family: Public Sans;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #6C8294;
+}
+
+   
+    .third-box{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+     
+    }
+    .list-ctn{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+    
+
+
+
+}  
